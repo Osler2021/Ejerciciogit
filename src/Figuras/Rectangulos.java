@@ -9,4 +9,10 @@ public class Rectangulos {
 		this.ancho = ancho;
 		this.alto = alto;
 	}
+
+	@Override
+	public String toString() {
+		return "Rectangulos [ancho=" + ancho + ", alto=" + alto + "]";
+	}
+
 }
