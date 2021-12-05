@@ -20,5 +20,6 @@ public class Rectangulos {
 	public double getPerimetro() {
 		return this.alto * 2 + this.ancho * 2;
 }
-
+	public double getArea() {
+		return this.alto + this.ancho;
 }
