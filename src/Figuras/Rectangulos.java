@@ -22,4 +22,5 @@ public class Rectangulos {
 }
 	public double getArea() {
 		return this.alto + this.ancho;
+	}
 }
